@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: bisque;
+}
+
+.menu{
+    position: fixed;
+    background-color: blueviolet;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.links{
+    font-size: 25px;
+    padding: 20px;
+    display: inline;
+   text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+}
+.links:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+a:hover{
+   text-decoration-color: red;
+}
+
+html{
+    scroll-behavior: smooth;
+}
